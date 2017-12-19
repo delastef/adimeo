@@ -1,6 +1,18 @@
 .wrapper {
   width: 1500px;
   margin: 0 auto; }
+  .wrapper .uneGrandeEcole {
+    position: relative; }
+    .wrapper .uneGrandeEcole img {
+      position: relative; }
+    .wrapper .uneGrandeEcole .uneGrandeEcoleTxt {
+      position: absolute;
+      top: 8.33%;
+      left: 2.86%;
+      color: white; }
+  .wrapper .imgWrapper {
+    width: 1023px;
+    margin: 0 auto; }
 
 .parallelogram {
   width: 500px;
