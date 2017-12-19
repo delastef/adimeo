@@ -14,26 +14,66 @@ body {
       top: 8.33%;
       left: 2.86%;
       color: white;
-      width: 29.06%; }
+      width: 29.06%;
+      font-size: 26px; }
       .wrapper .uneGrandeEcole .uneGrandeEcoleTxt:before {
         content: "";
+        position: absolute;
+        top: -16px;
         display: inline-block;
         height: 1px;
-        width: 4.66%;
+        width: 16.05%;
         border-top: 3px solid white; }
-  .wrapper .imgWrapper {
-    width: 1023px;
-    margin: 0 auto; }
-
-.parallelogram {
-  width: 500px;
-  height: 200px;
-  -webkit-transform: skew(-10deg);
-  -moz-transform: skew(-10deg);
-  -o-transform: skew(-10deg);
-  background: url(../img/img.jpg) no-repeat -122px -115px red;
-  margin: 0 auto;
-  display: inline-flex;
-  flex-direction: column; }
+      .wrapper .uneGrandeEcole .uneGrandeEcoleTxt:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -18px;
+        display: inline-block;
+        height: 1px;
+        width: 16.05%;
+        border-top: 3px solid white; }
+    .wrapper .uneGrandeEcole .buttonWrapper {
+      position: absolute;
+      bottom: 12.91%;
+      right: 7.06%; }
+      .wrapper .uneGrandeEcole .buttonWrapper .button {
+        background-color: #009de0;
+        padding: 0px 32px;
+        display: inline-block;
+        margin-right: 40px; }
+        .wrapper .uneGrandeEcole .buttonWrapper .button span {
+          position: relative;
+          top: -10px;
+          text-transform: uppercase;
+          color: white; }
+        .wrapper .uneGrandeEcole .buttonWrapper .button:before {
+          content: "";
+          display: inline-block;
+          height: 0;
+          width: 0;
+          border-bottom: 36px solid #009de0;
+          border-left: 20px solid transparent;
+          position: relative;
+          top: 1px;
+          left: -52px; }
+        .wrapper .uneGrandeEcole .buttonWrapper .button:after {
+          content: "";
+          display: inline-block;
+          height: 0;
+          width: 0;
+          border-bottom: 36px solid transparent;
+          border-left: 20px solid #009de0;
+          position: relative;
+          top: 0px;
+          left: 52px; }
+        .wrapper .uneGrandeEcole .buttonWrapper .button:nth-child(2) {
+          background-color: white; }
+          .wrapper .uneGrandeEcole .buttonWrapper .button:nth-child(2) span {
+            color: black; }
+          .wrapper .uneGrandeEcole .buttonWrapper .button:nth-child(2):before {
+            border-bottom: 36px solid white; }
+          .wrapper .uneGrandeEcole .buttonWrapper .button:nth-child(2):after {
+            border-left: 20px solid white; }
 
 /*# sourceMappingURL=style.css.map */
