@@ -1,0 +1,16 @@
+.wrapper{
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.parallelogram {
+  width: 500px;
+  height: 200px;
+  -webkit-transform: skew(-10deg);
+     -moz-transform: skew(-10deg);
+       -o-transform: skew(-10deg);
+  background: url(../img/img.jpg) no-repeat -122px -115px red;
+  margin: 0 auto;
+  display: inline-flex;
+  flex-direction: column;
+}
