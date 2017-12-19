@@ -18,6 +18,15 @@ body{
       top: 8.33%;
       left: 2.86%;
       color: white;
+      width: 29.06%;
+
+      &:before{
+        content: "";
+        display: inline-block;
+        height: 1px;
+        width: 4.66%;
+        border-top: 3px solid white;
+      }
     }
   }
   .imgWrapper{
