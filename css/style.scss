@@ -1,3 +1,10 @@
+/* variables*/
+$openSans: 'Open Sans', sans-serif;
+
+body{
+  font-family: $openSans;
+}
+
 .wrapper{
   width: 1500px;
   margin: 0 auto;

@@ -1,3 +1,7 @@
+/* variables*/
+body {
+  font-family: "Open Sans", sans-serif; }
+
 .wrapper {
   width: 1500px;
   margin: 0 auto; }
