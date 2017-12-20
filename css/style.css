@@ -3,12 +3,13 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 .wrapper {
-  width: 1500px;
+  width: 100%;
   margin: 0 auto; }
   .wrapper .uneGrandeEcole {
     position: relative; }
     .wrapper .uneGrandeEcole img {
-      position: relative; }
+      position: relative;
+      width: 100%; }
     .wrapper .uneGrandeEcole .uneGrandeEcoleTxt {
       position: absolute;
       top: 8.33%;
@@ -75,5 +76,40 @@ body {
             border-bottom: 36px solid white; }
           .wrapper .uneGrandeEcole .buttonWrapper .button:nth-child(2):after {
             border-left: 20px solid white; }
+  .wrapper .nosInformations {
+    padding: 5.25rem 7.33%; }
+    .wrapper .nosInformations h2 {
+      text-transform: uppercase;
+      font-size: 30.5px;
+      margin-bottom: 50px; }
+      .wrapper .nosInformations h2 span:nth-child(1) {
+        color: #9a9a9a; }
+      .wrapper .nosInformations h2 span:nth-child(2) {
+        color: #47c1f1; }
+    .wrapper .nosInformations .blocInformationsWrapper {
+      width: 17.2%; }
+      .wrapper .nosInformations .blocInformationsWrapper .formationsBlocs {
+        background-color: #ebeef0;
+        height: 9.375rem;
+        border-bottom: 1px solid white;
+        position: relative; }
+        .wrapper .nosInformations .blocInformationsWrapper .formationsBlocs:nth-child(1) {
+          background-color: #009de0; }
+          .wrapper .nosInformations .blocInformationsWrapper .formationsBlocs:nth-child(1):before {
+            content: "";
+            display: inline-block;
+            height: 0;
+            width: 0;
+            border-top: 30px solid transparent;
+            border-bottom: 30px solid transparent;
+            border-left: 22px solid white;
+            position: absolute;
+            top: 30%; }
+          .wrapper .nosInformations .blocInformationsWrapper .formationsBlocs:nth-child(1) p {
+            color: white; }
+        .wrapper .nosInformations .blocInformationsWrapper .formationsBlocs p {
+          font-size: 21px;
+          text-transform: uppercase;
+          padding: 3.125rem 2.5rem; }
 
 /*# sourceMappingURL=style.css.map */

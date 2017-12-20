@@ -7,12 +7,13 @@ body{
 }
 
 .wrapper{
-  width: 1500px;
+  width: 100%;
   margin: 0 auto;
   .uneGrandeEcole{
     position: relative;
     img{
       position: relative;
+      width: 100%;
     }
     .uneGrandeEcoleTxt{
       position: absolute;
@@ -101,6 +102,61 @@ body{
           }
         }
       }
+    }
+  }
+
+  .nosInformations{
+    padding: 5.25rem 7.33%;
+
+    h2{
+      text-transform: uppercase;
+      font-size: 30.5px;
+      margin-bottom: 50px;
+
+      span:nth-child(1){
+        color: #9a9a9a;
+      }
+
+      span:nth-child(2){
+        color: #47c1f1;
+      }
+    }
+
+    .blocInformationsWrapper{
+      width: 17.2%;
+      
+      .formationsBlocs{
+        background-color: #ebeef0;
+        height: 9.375rem;
+        border-bottom: 1px solid white;
+        position: relative;
+
+        &:nth-child(1){
+          background-color: #009de0;
+          &:before{
+            content:"";
+            display : inline-block;
+            height : 0;
+            width : 0;
+            border-top: 30px solid transparent;
+            border-bottom: 30px solid transparent;
+            border-left: 22px solid white;
+            position: absolute;
+            top: 30%;
+          }
+
+          p{
+            color: white;            
+          }
+        }
+
+        p{
+          font-size: 21px;
+          text-transform: uppercase;
+          padding: 3.125rem 2.5rem;
+        }
+      }
+      
     }
   }
 }
