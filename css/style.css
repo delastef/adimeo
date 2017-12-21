@@ -87,7 +87,7 @@ body {
       .wrapper .nosInformations h2 span:nth-child(2) {
         color: #47c1f1; }
     .wrapper .nosInformations .blocInformationsWrapper {
-      width: 17.2%; }
+      width: 16.25rem; }
       .wrapper .nosInformations .blocInformationsWrapper .formationsBlocs {
         background-color: #ebeef0;
         height: 9.375rem;
@@ -108,7 +108,7 @@ body {
           .wrapper .nosInformations .blocInformationsWrapper .formationsBlocs:nth-child(1) p {
             color: white; }
         .wrapper .nosInformations .blocInformationsWrapper .formationsBlocs p {
-          font-size: 21px;
+          font-size: 1.3125rem;
           text-transform: uppercase;
           padding: 3.125rem 2.5rem; }
 
