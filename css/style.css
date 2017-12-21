@@ -87,29 +87,52 @@ body {
       .wrapper .nosInformations h2 span:nth-child(2) {
         color: #47c1f1; }
     .wrapper .nosInformations .blocInformationsWrapper {
-      width: 16.25rem; }
-      .wrapper .nosInformations .blocInformationsWrapper .formationsBlocs {
-        background-color: #ebeef0;
-        height: 9.375rem;
-        border-bottom: 1px solid white;
-        position: relative; }
-        .wrapper .nosInformations .blocInformationsWrapper .formationsBlocs:nth-child(1) {
-          background-color: #009de0; }
-          .wrapper .nosInformations .blocInformationsWrapper .formationsBlocs:nth-child(1):before {
+      width: 16.25rem;
+      display: flex; }
+      .wrapper .nosInformations .blocInformationsWrapper .formationsWrapper {
+        z-index: 1; }
+        .wrapper .nosInformations .blocInformationsWrapper .formationsWrapper .formationsBlocs {
+          background-color: #ebeef0;
+          height: 9.375rem;
+          border-bottom: 1px solid white;
+          position: relative; }
+          .wrapper .nosInformations .blocInformationsWrapper .formationsWrapper .formationsBlocs:nth-child(1) {
+            background-color: #009de0; }
+            .wrapper .nosInformations .blocInformationsWrapper .formationsWrapper .formationsBlocs:nth-child(1):before {
+              content: "";
+              display: inline-block;
+              height: 0;
+              width: 0;
+              border-top: 30px solid transparent;
+              border-bottom: 30px solid transparent;
+              border-left: 22px solid white;
+              position: absolute;
+              top: 30%; }
+            .wrapper .nosInformations .blocInformationsWrapper .formationsWrapper .formationsBlocs:nth-child(1) p {
+              color: white; }
+          .wrapper .nosInformations .blocInformationsWrapper .formationsWrapper .formationsBlocs p {
+            font-size: 1.3125rem;
+            text-transform: uppercase;
+            padding: 3.125rem 2.5rem; }
+      .wrapper .nosInformations .blocInformationsWrapper .blocPhotosWrapper {
+        display: flex; }
+        .wrapper .nosInformations .blocInformationsWrapper .blocPhotosWrapper .blocPhoto {
+          transform: skew(-10deg);
+          width: 462px;
+          margin-right: 20px;
+          height: 452px;
+          overflow: hidden; }
+          .wrapper .nosInformations .blocInformationsWrapper .blocPhotosWrapper .blocPhoto:nth-child(1) {
+            margin-left: -40px; }
+          .wrapper .nosInformations .blocInformationsWrapper .blocPhotosWrapper .blocPhoto:after {
             content: "";
             display: inline-block;
             height: 0;
             width: 0;
-            border-top: 30px solid transparent;
-            border-bottom: 30px solid transparent;
-            border-left: 22px solid white;
-            position: absolute;
-            top: 30%; }
-          .wrapper .nosInformations .blocInformationsWrapper .formationsBlocs:nth-child(1) p {
-            color: white; }
-        .wrapper .nosInformations .blocInformationsWrapper .formationsBlocs p {
-          font-size: 1.3125rem;
-          text-transform: uppercase;
-          padding: 3.125rem 2.5rem; }
+            border-top: 195px solid red;
+            border-right: 69px solid transparent; }
+          .wrapper .nosInformations .blocInformationsWrapper .blocPhotosWrapper .blocPhoto img {
+            transform: skew(10deg);
+            margin-left: -40px; }
 
 /*# sourceMappingURL=style.css.map */

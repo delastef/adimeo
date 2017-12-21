@@ -124,39 +124,73 @@ body{
 
     .blocInformationsWrapper{
       width: 16.25rem;
-      
-      .formationsBlocs{
-        background-color: #ebeef0;
-        height: 9.375rem;
-        border-bottom: 1px solid white;
-        position: relative;
+      display: flex;
 
-        &:nth-child(1){
-          background-color: #009de0;
-          &:before{
-            content:"";
-            display : inline-block;
-            height : 0;
-            width : 0;
-            border-top: 30px solid transparent;
-            border-bottom: 30px solid transparent;
-            border-left: 22px solid white;
-            position: absolute;
-            top: 30%;
+      .formationsWrapper{
+        z-index: 1;
+
+        .formationsBlocs{
+          background-color: #ebeef0;
+          height: 9.375rem;
+          border-bottom: 1px solid white;
+          position: relative;
+
+          &:nth-child(1){
+            background-color: #009de0;
+            &:before{
+              content:"";
+              display : inline-block;
+              height : 0;
+              width : 0;
+              border-top: 30px solid transparent;
+              border-bottom: 30px solid transparent;
+              border-left: 22px solid white;
+              position: absolute;
+              top: 30%;
+            }
+
+            p{
+              color: white;            
+            }
           }
 
           p{
-            color: white;            
+            font-size: 1.3125rem;
+            text-transform: uppercase;
+            padding: 3.125rem 2.5rem;
           }
         }
-
-        p{
-          font-size: 1.3125rem;
-          text-transform: uppercase;
-          padding: 3.125rem 2.5rem;
-        }
-      }
+       }     
       
+      .blocPhotosWrapper{
+        display: flex;
+
+        .blocPhoto{
+          transform: skew(-10deg);
+          width: 462px;
+          margin-right: 20px;
+          height: 452px;
+          overflow: hidden;
+
+          &:nth-child(1){
+            margin-left: -40px;
+          }
+
+          &:after{
+            content: "";
+            display : inline-block;
+            height : 0;
+            width : 0;
+            border-top : 195px solid red;
+            border-right : 69px solid transparent;
+          }
+
+          img{
+            transform: skew(10deg);
+            margin-left: -40px;
+          }
+        }
+      }      
     }
   }
 }
