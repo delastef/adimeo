@@ -116,6 +116,14 @@ body {
             padding: 3.125rem 2.5rem; }
       .wrapper .nosInformations .blocInformationsWrapper .blocPhotosWrapper {
         display: flex; }
+        .wrapper .nosInformations .blocInformationsWrapper .blocPhotosWrapper:after {
+          content: "";
+          display: inline-block;
+          height: 452px;
+          width: 82px;
+          background-color: white;
+          z-index: 3;
+          margin-left: -60px; }
         .wrapper .nosInformations .blocInformationsWrapper .blocPhotosWrapper .blocPhoto {
           transform: skew(-10deg);
           width: 462px;
@@ -129,10 +137,18 @@ body {
             display: inline-block;
             height: 0;
             width: 0;
-            border-top: 195px solid red;
+            border-top: 195px solid transparent;
             border-right: 69px solid transparent; }
+          .wrapper .nosInformations .blocInformationsWrapper .blocPhotosWrapper .blocPhoto:hover > img {
+            width: 150%;
+            cursor: pointer; }
           .wrapper .nosInformations .blocInformationsWrapper .blocPhotosWrapper .blocPhoto img {
             transform: skew(10deg);
             margin-left: -40px; }
+    .wrapper .nosInformations .fleche {
+      position: absolute;
+      right: 12px;
+      margin-top: -12px;
+      z-index: 4; }
 
 /*# sourceMappingURL=style.css.map */
